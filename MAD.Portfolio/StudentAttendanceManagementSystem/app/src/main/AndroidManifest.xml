@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uz.wiut.mad.StudentAttendanceManagementSystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentAttendanceManagementSystem">
+        <activity android:name="uz.wiut.mad.StudentAttendanceManagementSystem.UpdateActivity"
+            android:parentActivityName="uz.wiut.mad.StudentAttendanceManagementSystem.MainActivity"></activity>
+        <activity
+            android:name="uz.wiut.mad.StudentAttendanceManagementSystem.AddActivity"
+            android:label="Add User"
+            android:parentActivityName="uz.wiut.mad.StudentAttendanceManagementSystem.MainActivity" />
+        <activity
+            android:name="uz.wiut.mad.StudentAttendanceManagementSystem.MainActivity"
+            android:label="Attendance Manager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

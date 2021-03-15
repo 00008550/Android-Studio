@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Student Attendance Management System</string>
+    <string-array name="modules">
+        <item>MAD</item>
+        <item>DBSD</item>
+        <item>GAMEDEV</item>
+        <item>OOP</item>
+    </string-array>
+
+</resources>
